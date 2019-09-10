@@ -1,6 +1,11 @@
 {
-  "extends": ["standard", "standard-jsx"],
+  "plugins": ["lodash", "simple-import-sort"],
+  "extends": ["standard", "standard-jsx", "plugin:lodash/recommended"],
   "rules": {
-		"react/jsx-no-undef": 0
+    "react/jsx-no-undef": 0,
+    "lodash/prefer-lodash-method": 0,
+    "lodash/prefer-noop": 0,
+    "lodash/prefer-constant": 0,
+    "simple-import-sort/sort": "error"
   }
 }
