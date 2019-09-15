@@ -7,5 +7,10 @@
     "lodash/prefer-noop": 0,
     "lodash/prefer-constant": 0,
     "simple-import-sort/sort": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
