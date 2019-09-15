@@ -1,8 +1,8 @@
 {
-  "plugins": ["lodash", "simple-import-sort"],
-  "extends": ["standard", "standard-jsx", "plugin:lodash/recommended"],
+  "plugins": ["jsx-control-statements", "lodash", "simple-import-sort"],
+  "extends": ["standard", "standard-jsx", "plugin:lodash/recommended", "plugin:jsx-control-statements/recommended"],
   "rules": {
-    "react/jsx-no-undef": 0,
+    "react/jsx-no-undef": [2, { "allowGlobals": true }],
     "lodash/prefer-lodash-method": 0,
     "lodash/prefer-noop": 0,
     "lodash/prefer-constant": 0,
