@@ -5,6 +5,7 @@
   <a href="/docs/RULES-esla.md">Español (Latinoamérica)</a> •
   <a href="/docs/RULES-fr.md">Français</a> •
   <a href="/docs/RULES-iteu.md">Italiano (Italian)</a> •
+  <a href="/docs/RULES-ja.md">日本語 (Japanese)</a> •
   <a href="/docs/RULES-kokr.md">한국어 (Korean)</a> •
   <a href="/docs/RULES-ptbr.md">Português (Brasil)</a> •
   <a href="/docs/RULES-zhcn.md">简体中文 (Simplified Chinese)</a> •
@@ -182,7 +183,7 @@
   ```
 
 * **使用浏览器全局变量时加上** `window.` 前缀。<br>
-  Exceptions are: `document`, `console` and `navigator`.
+  `document`、`console` 和 `navigator` 除外。
 
   eslint: [`no-undef`](http://eslint.org/docs/rules/no-undef)
 
