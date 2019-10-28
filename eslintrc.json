@@ -5,6 +5,7 @@
     "react/jsx-no-undef": [2, { "allowGlobals": true }],
     "react-redux/mapDispatchToProps-returns-object": 0,
     "react-redux/prefer-separate-component-file": 0,
+    "lodash/preferred-alias": 0,
     "lodash/prefer-lodash-method": 0,
     "lodash/prefer-noop": 0,
     "lodash/prefer-constant": 0,
