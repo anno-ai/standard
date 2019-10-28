@@ -8,7 +8,13 @@
     "lodash/prefer-lodash-method": 0,
     "lodash/prefer-noop": 0,
     "lodash/prefer-constant": 0,
-    "simple-import-sort/sort": "error"
+    "simple-import-sort/sort": "error",
+    "promise/always-return": "error",
+    "promise/no-return-wrap": "error",
+    "promise/param-names": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-nesting": "error",
+    "promise/valid-params": "error"
   },
   "settings": {
     "react": {
